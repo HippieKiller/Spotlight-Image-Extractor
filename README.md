@@ -27,9 +27,14 @@ All image files are hashed with SHA256 when extacting to avoid duplicates
 
   Double-click **".\build\execute.bat"** to (compile if needed and) execute the program, and pause for 3 seconds to see the output
   
+  ![image](https://user-images.githubusercontent.com/5307563/170537217-43b96ea8-680e-403c-9187-00b6717ca5d3.png)
+  
   Double-click **".\build\install.bat"** to (compile if needed and) execute the program with the -INSTALL param, and pauses for 3 seconds
   
+  ![image](https://user-images.githubusercontent.com/5307563/170590202-c9c18e6c-8076-4210-bb74-a9ee1b0cb8ec.png)
+  
   Double-click **".\build\uninstall.bat"** to (compile if needed and) execute the program with the -UNINSTALL param, and pauses for 3 seconds
+  
+  ![image](https://user-images.githubusercontent.com/5307563/170590296-b3075621-7522-4c44-a2aa-fac2436551bd.png)
+  
 
-Example output:
-![image](https://user-images.githubusercontent.com/5307563/170537217-43b96ea8-680e-403c-9187-00b6717ca5d3.png)
