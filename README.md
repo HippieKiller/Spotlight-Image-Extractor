@@ -20,6 +20,7 @@ All extracted images are saved to a folder named Spotlight-Images which is locat
 
 All image files are hashed with SHA256 when extacting to avoid duplicates
 
+_________
 
   Double-click **".\build\compile.bat"** to compile the exe into the build directory
   
