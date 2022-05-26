@@ -30,3 +30,6 @@ All image files are hashed with SHA256 when extacting to avoid duplicates
   Double-click **".\build\install.bat"** to (compile if needed and) execute the program with the -INSTALL param, and pauses for 3 seconds
   
   Double-click **".\build\uninstall.bat"** to (compile if needed and) execute the program with the -UNINSTALL param, and pauses for 3 seconds
+
+Example output:
+![image](https://user-images.githubusercontent.com/5307563/170537217-43b96ea8-680e-403c-9187-00b6717ca5d3.png)
