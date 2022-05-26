@@ -1,4 +1,4 @@
-Spotlight Image Extractor v2.00 - by Neil Hippiekiller
+Spotlight Image Extractor v2.00
 =
 
 This program extracts the beautiful lockscreen images from Windows 10/11 to a folder so you can use them as background images for Windows desktop.
@@ -23,4 +23,4 @@ All image files are hashed with SHA256 when extacting to avoid duplicates
 
   Double-click **".\build\compile.bat"** to compile the exe into the build directory
   
-  Nothing needs to be installed to compile it, the compiler comes with Windows 10/11
+  Nothing needs to be installed to compile it, the compiler used comes installed with Windows 10/11
