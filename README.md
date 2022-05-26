@@ -23,4 +23,10 @@ All image files are hashed with SHA256 when extacting to avoid duplicates
 
   Double-click **".\build\compile.bat"** to compile the exe into the build directory
   
-  Nothing needs to be installed to compile it, the compiler used comes installed with Windows 10/11
+  > Note: Nothing needs to be installed to compile this program, the compiler used comes installed with Windows 10/11!
+
+  Double-click **".\build\execute.bat"** to (compile if needed and) execute the program, and pause for 3 seconds to see the output
+  
+  Double-click **".\build\install.bat"** to (compile if needed and) execute the program with the -INSTALL param, and pauses for 3 seconds
+  
+  Double-click **".\build\uninstall.bat"** to (compile if needed and) execute the program with the -UNINSTALL param, and pauses for 3 seconds
