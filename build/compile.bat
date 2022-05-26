@@ -29,5 +29,5 @@ setlocal
 
 :EndMeNow
   :: Pause to show output for 3 seconds
-  TIMEOUT /T 3
+rem  TIMEOUT /T 3
 endlocal & exit /b 0
