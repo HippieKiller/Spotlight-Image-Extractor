@@ -145,22 +145,29 @@ class Program {
 
 
   //-----------------------------------------------------------------------------
-  // Get image information as a string
+  // Get image information as a simple string like "20x20 Png"
 
   static function GetImageInfo (fileInfo: FileInfo): String {
+
     var
-      image:  Image,
-      result: String;
+      image: Image;
+
     try {
       // Image.FromFile will throw an exception if the given file is not an image, so we need try/catch to handle it
-      image  = Image.FromFile(fileInfo.FullName);
-      result = image.Width + "x" + image.Height + " " + new ImageFormatConverter().ConvertToString(image.RawFormat);
+      image = Image.FromFile(fileInfo.FullName);
 
-      image.Dispose();
-      return result;
+      // Build string from width, height, and image format, and return it
+      return image.Width + "x" + image.Height + " " + new ImageFormatConverter().ConvertToString(image.RawFormat);
     }
+
     catch (e: Exception) {
+      // Not an image
       return "Not image";
+    }
+
+    finally {
+      // Free the image
+      if (image) image.Dispose();
     }
   }
 
